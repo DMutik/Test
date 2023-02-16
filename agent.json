@@ -1,0 +1,12 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "Asia/Yekaterinburg",
+  "projectNumber": 642746181247,
+  "startFlow": "Default Start Flow",
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  },
+  "dataResidencyOption": "DATA_RESIDENCY_IN_USE_COMPLIANT"
+}

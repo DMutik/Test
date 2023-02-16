@@ -1,0 +1,10 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "11-12-1993",
+      "parameterId": "dob"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

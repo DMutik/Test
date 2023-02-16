@@ -1,0 +1,10 @@
+{
+  "name": "0dc82807-efb5-4028-9580-e95e1bcbff71",
+  "displayName": "Get_DOB",
+  "parameters": [ {
+    "id": "dob",
+    "entityType": "@sys.any",
+    "redact": true
+  } ],
+  "priority": 500000
+}

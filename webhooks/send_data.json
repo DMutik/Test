@@ -1,0 +1,10 @@
+{
+  "name": "27c6a49d-9a49-416b-ad4e-4f0c233b7ea7",
+  "displayName": "send_data",
+  "genericWebService": {
+    "uri": "https://asia-northeast1-sandbox-gcp-experiments.cloudfunctions.net/assignment2_Mutik"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "6de88579-a470-4cf3-bd98-306871afec71",
+  "displayName": "DOB",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "What is your DOB?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Get_DOB",
+    "condition": "\"true\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You were born on $intent.params.dob" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Location",
+    "name": "542a991f-728b-42aa-9d17-5865cd3c0766"
+  } ]
+}

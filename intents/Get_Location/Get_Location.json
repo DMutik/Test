@@ -1,0 +1,10 @@
+{
+  "name": "f45e997b-58d5-4317-96a5-1ab0e5798983",
+  "displayName": "Get_Location",
+  "parameters": [ {
+    "id": "Location",
+    "entityType": "@sys.any",
+    "redact": true
+  } ],
+  "priority": 500000
+}

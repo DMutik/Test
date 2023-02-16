@@ -1,0 +1,31 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "New-York",
+      "parameterId": "Location"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Moscow",
+      "parameterId": "Location"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yerevan",
+      "parameterId": "Location"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Armenia",
+      "parameterId": "Location"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

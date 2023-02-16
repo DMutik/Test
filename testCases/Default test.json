@@ -1,0 +1,120 @@
+{
+  "name": "008e55a4-6c23-427a-ba3e-3a668f9e693b",
+  "tags": [ "#test" ],
+  "displayName": "Default test",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Name",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Hello!" ]
+      }, {
+        "text": [ "What is your name?" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Dmitry"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "user_name": "Dmitry"
+      },
+      "triggeredIntent": {
+        "name": "Get_name"
+      },
+      "currentPage": {
+        "name": "DOB",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Hi, Dmitry!" ]
+      }, {
+        "text": [ "What is your DOB?" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "12-11-1993"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "dob": "12-11-1993",
+        "user_name": "Dmitry"
+      },
+      "triggeredIntent": {
+        "name": "Get_DOB"
+      },
+      "currentPage": {
+        "name": "Location",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You were born on 12-11-1993" ]
+      }, {
+        "text": [ "Where do you live?" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Yerevan"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "dob": "12-11-1993",
+        "location": "Yerevan",
+        "user_name": "Dmitry"
+      },
+      "triggeredIntent": {
+        "name": "Get_Location"
+      },
+      "currentPage": {
+        "name": "End Session",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You live in Yerevan" ]
+      } ]
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1676373694,
+    "nanos": 954472000
+  },
+  "testConfig": {
+    "trackingParameters": [ "name", "DOB" ],
+    "flow": "Default Start Flow"
+  }
+}

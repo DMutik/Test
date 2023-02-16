@@ -1,0 +1,31 @@
+{
+  "name": "171d44ba-ecd0-4a60-b035-1d7d132a6779",
+  "displayName": "Location",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Where do you live?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Get_Location",
+    "condition": "\"true\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You live in $intent.params.location" ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "send_data",
+      "tag": "send"
+    },
+    "targetPage": "End Flow",
+    "name": "e26eeadf-352c-40b6-9a28-bed8fda7009e"
+  } ]
+}

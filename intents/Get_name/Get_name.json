@@ -1,0 +1,10 @@
+{
+  "name": "3ac72de7-9ebe-4d4d-a6fd-4869940eb53a",
+  "displayName": "Get_name",
+  "parameters": [ {
+    "id": "user_name",
+    "entityType": "@user_name",
+    "redact": true
+  } ],
+  "priority": 500000
+}
