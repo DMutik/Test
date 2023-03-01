@@ -20,5 +20,13 @@
     } ],
     "repeatCount": 1,
     "languageCode": "en"
-  } ]
+  },
+    {
+      "parts": [ {
+        "text": "It's Dmitry",
+        "auto": true
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ]
 }
